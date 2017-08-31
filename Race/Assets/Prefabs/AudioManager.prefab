@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1824736655352086}
+  m_IsPrefabParent: 1
+--- !u!1 &1824736655352086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4821288773424050}
+  - component: {fileID: 114808550003966946}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4821288773424050
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1824736655352086}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114808550003966946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1824736655352086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4625c8c0dc50bcb42b7766dbd0aac975, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BonusPick_1
+    clip: {fileID: 8300000, guid: 3edec35abc5a02d45b6f0a47d2d753b4, type: 3}
+    volume: 0.11
+    pitch: 1
+    source: {fileID: 0}
+  - name: BonusPick_2
+    clip: {fileID: 8300000, guid: d2c1a3c2df540854b899929903a21e44, type: 3}
+    volume: 0.218
+    pitch: 1
+    source: {fileID: 0}
+  - name: Slowmo
+    clip: {fileID: 8300000, guid: 0dd2cfe8a04a2ca48bbf589203d7f0d5, type: 3}
+    volume: 0.315
+    pitch: 1
+    source: {fileID: 0}
+  - name: Crash
+    clip: {fileID: 8300000, guid: 296494e23f4e1cc4794424b6779ac49e, type: 3}
+    volume: 0.315
+    pitch: 1
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: ca0b497afc4700d4d877ac734183ab99, type: 3}
+    volume: 0.391
+    pitch: 1
+    source: {fileID: 0}
